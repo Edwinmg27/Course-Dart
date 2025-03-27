@@ -30,6 +30,10 @@ String? direccion =
 
 //* WILDCARDS VARIABLES
 //* suele asociarse al uso del guion bajo (_) como convención para ignorar variables o valores no utilizados en ciertos contextos.
+void mostrarMensaje(String mensaje, int _, bool __) {
+  print(mensaje); // Los otros parámetros se marcan con _ y __ para ignorarlos.
+}
+
 //*Variables privadas
 //* Se declara anteponiendo un guion bajo (_) al nombre de la variable. La privacidad en Dart es a nivel de biblioteca (archivo)
 String _variablePrivada = "Secreto";
