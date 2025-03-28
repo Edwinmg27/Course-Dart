@@ -37,3 +37,4 @@ void mostrarMensaje(String mensaje, int _, bool __) {
 //*Variables privadas
 //* Se declara anteponiendo un guion bajo (_) al nombre de la variable. La privacidad en Dart es a nivel de biblioteca (archivo)
 String _variablePrivada = "Secreto";
+

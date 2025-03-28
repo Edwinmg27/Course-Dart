@@ -5,9 +5,9 @@ void main() {
 
   //* if-else con operadores lógicos
   //Las estructuras de control permiten tomar decisiones sobre el código
-  // if: ejecuta un bloque de código solo si la condición es verdadera.
-  // else: se ejecuta si la condición del if es falsa
-  // else-if: permite validar multiples condiciones en secuencia.
+  // if(si): ejecuta un bloque de código solo si la condición es verdadera.
+  // else(si no): se ejecuta si la condición del if es falsa
+  // else-if(si no, si): permite validar multiples condiciones en secuencia.
   //* Reglas claves: Las condiciones se evalúan de arriba a abajo. Si la primera condición es verdadera ejecuta su bloque y salta las demás
 
   if (edadUsuario >= 18 && tieneLicencia) {
@@ -24,7 +24,7 @@ void main() {
   // el valor de la expresión se compara en cada case
   // se debe terminar el case con break, return, throw
   // default: maneja casos no cubiertos explícitamente
-  // puede usarse como expresion(retorna un valor) y admite patrones avanzados
+  // puede usarse como expresión(retorna un valor) y admite patrones avanzados
 
   switch (estadoUsuario) {
     case Estado.activo:
